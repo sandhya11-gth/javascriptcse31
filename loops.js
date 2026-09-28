@@ -1,0 +1,14 @@
+/*let string = "Hello, World!";
+let count=0;
+for(let i=0; string[i]!==undefined ;i++){
+  count++;
+}
+console.log(count);*/
+let str = "Hello, World!";
+let count = 0;
+let i= 0;
+while( str[i]!= undefined){
+  i++;
+  count++;
+}
+console.log(count);
